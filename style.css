@@ -42,6 +42,9 @@ li{
 .text--purple {
     color: #6030b1;
 }
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
 
 .section__title {
     margin-bottom: 20px;
@@ -148,7 +151,7 @@ transform: scale (1.5)
     padding: 0 16px;
 }
 
-.about-me__image--container {
+.about-me__img--container {
     flex: 1;
     display: flex;
     align-items: center;
